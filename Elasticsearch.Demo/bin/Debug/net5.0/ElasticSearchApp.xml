@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ElasticSearchApp</name>
+    </assembly>
+    <members>
+        <member name="M:CensusApplication.Controllers.UsersController.Get(System.String)">
+            <summary>
+            Gets data for a user using Name as a search criteria
+            </summary>
+            <returns>A user</returns>
+        </member>
+        <member name="M:CensusApplication.Controllers.UsersController.GetAllUsers">
+            <summary>
+            Returns all users
+            </summary>
+            <returns>List of users</returns>
+        </member>
+        <member name="M:CensusApplication.Controllers.UsersController.Post(CensusApplication.User)">
+            <summary>
+            Creates a new user
+            </summary>
+            <param name="user">Request payload</param>
+            <returns></returns>
+        </member>
+        <member name="M:CensusApplication.Controllers.UsersController.Delete(System.String)">
+            <summary>
+            Deletes user using their ES id as a parameter
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
